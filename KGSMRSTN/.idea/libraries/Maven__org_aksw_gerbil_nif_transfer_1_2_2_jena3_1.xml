@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.aksw:gerbil.nif.transfer:1.2.2-jena3.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/aksw/gerbil.nif.transfer/1.2.2-jena3.1/gerbil.nif.transfer-1.2.2-jena3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/aksw/gerbil.nif.transfer/1.2.2-jena3.1/gerbil.nif.transfer-1.2.2-jena3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/aksw/gerbil.nif.transfer/1.2.2-jena3.1/gerbil.nif.transfer-1.2.2-jena3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
