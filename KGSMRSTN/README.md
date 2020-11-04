@@ -1,6 +1,6 @@
-#Onboard Document
+# Onboard Document
 
-##Walkthrough
+## Walkthrough
 
 1. This directory consists of both KGSUM server and web application.
 2. The web app is in `./src/main/resources/webapp`.
@@ -10,13 +10,13 @@
 6. Hence, the webapp doesn't need to upload the RDF data, just specify the dataset name (entity).
 7. Get to know more about DBpedia at https://wiki.dbpedia.org/about.
 
-##Suggestions
+## Suggestions
 
 1. Proper abstraction of data layer.
 2. Switch to React.js for maintainability, which leads to
 3. Separation of webapp repository.
 4. Commit `.idea/` to `git` as well, for consistency of code style.
 
-##Problems
+## Problems
 
 1. Can't successfully apply LinkSUM with `Goalkeeper association football` entity. Apache Lucene asks for index directory.
