@@ -3,6 +3,7 @@
 # Compiled class file
 *.class
 target/
+index/
 
 # Log file
 *.log
