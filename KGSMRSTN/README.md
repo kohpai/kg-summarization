@@ -1,6 +1,13 @@
 # Onboard Document
 
+## Update 2020-11-22
+
+1. Turned out, serving the web app using Idea led to web path bug(s); but it can be fixed pretty easy though.
+2. The problem with file size can be avoided by using small files, still no way to fix this properly.
+3. Haseeb has provided us the index directory, and now LinkSUM can be run just fine.
+
 ## Update 2020-11-08
+
 1. Apache server is for serving static web app. But if you already have IntelliJ Idea, you can just right click `index.html` and open with browser. Idea will provide a built-in web server for you.
 2. For Hits and Salsa, we need to upload `.ttl` files. Not sure how this is supposed to work, the files tend to be very big (like 2.4gb), and Tomcat server is not allowing such size.
 3. The Hits test script doesn't work, similar to 2., but it's Java that's not allowing the file to be read.
