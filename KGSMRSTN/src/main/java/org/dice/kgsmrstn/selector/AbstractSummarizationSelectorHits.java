@@ -126,6 +126,7 @@ public class AbstractSummarizationSelectorHits {
         String p = et.getPredicate().toString();
         String o = et.getObject().toString();
 
+        // @TODO: why set curr_s to o, and curr_o to s?
         Node curr_s = new Node(o, 0, 0, ALGORITHM);
         Node curr_o = new Node(s, 0, 1, ALGORITHM);
 
