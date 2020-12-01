@@ -155,14 +155,7 @@ public class AbstractSummarizationSelectorHits {
       neighbourNodes.addAll(neighbourNodes1);
       Collections.sort(
           neighbourNodes,
-          new Comparator<Node>() {
-
-            @Override
-            public int compare(Node o1, Node o2) {
-              // TODO Auto-generated method stub
-              return Double.compare(o1.getHubWeight(), o2.getHubWeight());
-            }
-          });
+              Comparator.comparingDouble(Node::getHubWeight));
 
       for (Node succesorNode : neighbourNodes) {
 
