@@ -85,7 +85,7 @@ public class AbstractSummarizationSelectorHits {
    */
   protected List<Node> getHighRankNdes() {
     List<Node> reversedNodeList = this.sortAndReverse(g);
-    List<Node> NodeIteration =
+    List<Node> nodeIteration =
         reversedNodeList.parallelStream()
             .filter(node -> node.getLevel() == 1)
             .collect(Collectors.toList());
@@ -99,10 +99,10 @@ public class AbstractSummarizationSelectorHits {
             .reduce(0.0, Double::sum);
 
     /** Calculating mean of the authority weights that willbe used as threshold */
-    double meanNodes = total_weight / NodeIteration.size();
+    double meanNodes = total_weight / nodeIteration.size();
 
     List<Node> filteredList =
-        NodeIteration.parallelStream()
+        nodeIteration.parallelStream()
             .filter(node -> node.getAuthorityWeight() >= (meanNodes))
             .collect(Collectors.toList());
     return filteredList;
